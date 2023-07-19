@@ -18,10 +18,7 @@ const publicRoutes = [
     component: Upload,
     layout: HeaderOnly,
   },
-  {
-    path: '/profile',
-    component: Profile,
-  },
+  { path: '/@:nickname', component: Profile },
   ,
   {
     path: '/search',
