@@ -1,6 +1,8 @@
 .wrapper {
   width: 100%;
   max-height: min((100vh - 96px) - 60px, 734px);
+  display: flex;
+  flex-direction: column;
   min-height: 100px;
   padding-top: 8px;
   border-radius: 8px;

@@ -11,6 +11,10 @@
   padding-bottom: 8px;
 }
 
+.menu-body {
+  overflow-y: auto;
+}
+
 // Menu items
 .menu-item {
   width: 100%;
@@ -23,6 +27,7 @@
   &.separate {
     border-top: 1px solid rgba(22, 24, 35, 0.12);
   }
+
   &:hover {
     background-color: rgba(22, 24, 35, 0.03);
   }
@@ -31,6 +36,7 @@
 // Header
 .header {
   position: relative;
+  flex-shrink: 0;
   height: 50px;
   margin-top: -8px;
 }
